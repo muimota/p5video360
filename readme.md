@@ -11,6 +11,16 @@ The GLSL shader is taken from this js/html [example](https://gist.github.com/fie
 
 The sample video is taken from youtube [link](https://www.youtube.com/watch?v=iWyvlkWYXhY) and licensed under CC
 
+## Ubuntu
+
+GLVideo needs gstreamer0.10 ffmpeg plugin. I case is not working:
+
+~~~~
+sudo add-apt-repository ppa:mc3man/gstffmpeg-keep
+sudo apt-get update
+sudo apt-get install gstreamer0.10-plugins-good gstreamer0.10-plugins-base gstreamer0.10-alsa gstreamer0.10-x
+~~~~
+
 enjoy!
 
 Martin Nadal martin(at)muimota.net
